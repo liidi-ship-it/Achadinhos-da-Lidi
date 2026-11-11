@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Achadinhos da Lidi: produtos úteis para casa, beleza, moda, tecnologia e muito mais.">
+<title>Achadinhos da Lidi | Achadinhos para o dia a dia</title>
+<style>
+:root{--rose:#e9b6ad;--rose2:#f7dfd9;--cream:#fffaf7;--ink:#49332f;--muted:#796560;--line:#f0e4df;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.5}
+a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+header{background:#fffaf7eF;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5;backdrop-filter:blur(12px)}
+.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{font-family:Georgia,serif;font-style:italic;font-size:clamp(1.35rem,3vw,2rem);font-weight:bold;text-decoration:none}.brand span{color:#b96f61}.tagline{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:-4px}.navlinks{display:flex;gap:20px;font-size:.92rem}.navlinks a{text-decoration:none}.hero{padding:58px 0 50px;background:linear-gradient(110deg,#fff5f1 0%,#f8e2da 56%,#f2d0c6 100%);overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:32px}.eyebrow{color:#a45e51;text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:bold}.hero h1{font:italic bold clamp(2.4rem,5vw,4.2rem)/1.05 Georgia,serif;margin:12px 0}.hero p{font-size:1.1rem;max-width:580px;color:#5f4842}.hero-art{min-height:240px;border-radius:28px;background:radial-gradient(circle at 75% 20%,#fff 0 8%,transparent 9%),linear-gradient(145deg,#f7cfc4,#e9b3a6);display:grid;place-items:center;box-shadow:0 20px 50px #9a665022;position:relative}.hero-art:before{content:"♡";font:9rem Georgia;color:#fff8;position:absolute;right:10%;top:2%}.hero-art-inner{background:#fff9f5;border:1px solid #fff;border-radius:22px;padding:28px;text-align:center;transform:rotate(-4deg);box-shadow:0 12px 30px #784b3c20}.hero-art-inner strong{font:italic 1.8rem Georgia;display:block}.hero-art-inner span{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:#a45e51}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--rose2);border:1px solid #edc9c1;border-radius:999px;padding:12px 20px;text-decoration:none;font-weight:bold;transition:.2s}.btn:hover{transform:translateY(-2px);background:#f2d0c8}.btn.primary{background:var(--rose);border-color:var(--rose);color:#38231f}
+section{padding:34px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:18px}.section-head h2{font: bold 1.65rem Georgia;margin:0}.section-head p{margin:4px 0 0;color:var(--muted);font-size:.93rem}.categories{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}.category{background:#fff;border:1px solid var(--line);border-radius:18px;padding:18px 10px;text-align:center;text-decoration:none;box-shadow:0 5px 18px #6e43350a}.category .emoji{display:grid;place-items:center;width:54px;height:54px;margin:0 auto 9px;border-radius:50%;background:#fbe6e0;font-size:1.6rem}.category strong{font-size:.88rem}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.product{background:white;border:1px solid var(--line);border-radius:18px;padding:12px;box-shadow:0 8px 24px #6e43350b;display:flex;flex-direction:column}.photo{height:175px;border-radius:12px;background:linear-gradient(145deg,#f9eee9,#f2d9d1);display:grid;place-items:center;overflow:hidden;color:#a46a5c;font-size:3rem}.photo img{width:100%;height:100%;object-fit:cover}.product h3{font-size:1rem;line-height:1.3;margin:12px 0 5px}.product p{color:var(--muted);font-size:.88rem;margin:0 0 12px;flex:1}.price{font-weight:bold;margin:0 0 12px}.price small{display:block;font-weight:normal;font-size:.76rem;color:var(--muted)}.product .btn{width:100%;padding:10px 12px;font-size:.9rem}.notice{background:#f8ebe6;border:1px solid #f0d8d0;border-radius:18px;padding:20px 24px;display:flex;gap:16px;align-items:center}.notice .symbol{font-size:2rem}.notice p{margin:0;color:#624943}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:stretch}.about-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px}.about-card h2{font: bold 1.5rem Georgia;margin-top:0}.about-card ul{padding-left:20px}.about-card li{margin:8px 0}.about-visual{background:linear-gradient(140deg,#f9e9e2,#eabbb0);border-radius:20px;padding:30px;display:flex;flex-direction:column;justify-content:center;text-align:center}.about-visual strong{font:italic 2rem Georgia}.about-visual span{margin-top:8px;color:#78574e}
+footer{background:#503934;color:#fff5ef;padding:26px 0;margin-top:26px}.footer-grid{display:grid;grid-template-columns:1fr 2fr;gap:22px;align-items:center}.footer-brand{font:italic bold 1.7rem Georgia}.disclosure{font-size:.85rem;color:#f7e6df}.fineprint{font-size:.75rem;color:#dfc8c0;margin-top:12px}
+@media(max-width:850px){.hero-grid{grid-template-columns:1fr}.hero-art{min-height:190px}.categories{grid-template-columns:repeat(3,1fr)}.products{grid-template-columns:repeat(2,1fr)}.about-grid{grid-template-columns:1fr}.navlinks{gap:12px}}
+@media(max-width:480px){.nav{min-height:68px}.navlinks{font-size:.78rem;gap:9px}.tagline{font-size:.55rem}.hero{padding:38px 0}.hero p{font-size:1rem}.categories{grid-template-columns:repeat(2,1fr)}.products{gap:10px}.product{padding:9px}.photo{height:135px}.section-head h2{font-size:1.35rem}.footer-grid{grid-template-columns:1fr}.notice{align-items:flex-start;padding:16px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <div><a class="brand" href="#">♡ Achadinhos <span>da Lidi</span></a><div class="tagline">Pequenos achados, grandes facilidades</div></div>
+  <nav class="navlinks"><a href="#categorias">Categorias</a><a href="#destaques">Achadinhos</a><a href="#sobre">Sobre</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+  <div><div class="eyebrow">Bem-vinda à nossa vitrine</div><h1>Achadinhos da Lidi</h1><p>Produtos úteis, bonitos e ideias que facilitam o dia a dia. Explore achadinhos para casa, beleza, moda, tecnologia e muito mais.</p><a class="btn primary" href="#destaques">♡ Confira os destaques <span>→</span></a></div>
+  <div class="hero-art" aria-label="Ilustração decorativa"><div class="hero-art-inner"><strong>Sonhe.<br>Planeje.<br>Conquiste.</strong><span>um achadinho de cada vez ♡</span></div></div>
+</div></section>
+<section id="categorias"><div class="wrap"><div class="section-head"><div><h2>Categorias</h2><p>Encontre inspiração para cada cantinho da sua vida.</p></div></div>
+<div class="categories">
+<a class="category" href="#destaques"><span class="emoji">⭐</span><strong>Ofertas do dia</strong></a>
+<a class="category" href="#destaques"><span class="emoji">🧴</span><strong>Beleza e cuidados</strong></a>
+<a class="category" href="#destaques"><span class="emoji">👗</span><strong>Moda feminina</strong></a>
+<a class="category" href="#destaques"><span class="emoji">🏡</span><strong>Casa e decoração</strong></a>
+<a class="category" href="#destaques"><span class="emoji">👶</span><strong>Bebê e criança</strong></a>
+<a class="category" href="#destaques"><span class="emoji">🎧</span><strong>Eletrônicos</strong></a>
+</div></div></section>
+<section id="destaques"><div class="wrap"><div class="section-head"><div><h2>♡ Achadinhos em destaque</h2><p>Os espaços abaixo já estão prontos para você cadastrar seus produtos.</p></div></div>
+<div class="products">
+<article class="product"><div class="photo">🧴</div><h3>Produto de beleza</h3><p>Adicione aqui uma descrição curta e útil do produto.</p><div class="price">Confira o preço <small>Veja o valor atualizado na Amazon.</small></div><a class="btn" href="https://www.amazon.com.br/" target="_blank" rel="noopener noreferrer">Ver na Amazon ↗</a></article>
+<article class="product"><div class="photo">🏡</div><h3>Achadinho para casa</h3><p>Uma solução prática para facilitar sua rotina.</p><div class="price">Confira o preço <small>Veja o valor atualizado na Amazon.</small></div><a class="btn" href="https://www.amazon.com.br/" target="_blank" rel="noopener noreferrer">Ver na Amazon ↗</a></article>
+<article class="product"><div class="photo">👗</div><h3>Moda e acessórios</h3><p>Inclua aqui seu achadinho favorito de moda.</p><div class="price">Confira o preço <small>Veja o valor atualizado na Amazon.</small></div><a class="btn" href="https://www.amazon.com.br/" target="_blank" rel="noopener noreferrer">Ver na Amazon ↗</a></article>
+<article class="product"><div class="photo">🎧</div><h3>Tecnologia útil</h3><p>Compartilhe um produto interessante para o dia a dia.</p><div class="price">Confira o preço <small>Veja o valor atualizado na Amazon.</small></div><a class="btn" href="https://www.amazon.com.br/" target="_blank" rel="noopener noreferrer">Ver na Amazon ↗</a></article>
+</div>
+<p class="fineprint" style="color:#796560">Modelo inicial: os botões acima ainda são links genéricos da Amazon. Troque-os pelos seus links especiais de associada antes de divulgar o site.</p>
+</div></section>
+<section><div class="wrap"><div class="notice"><div class="symbol">♡</div><p><strong>Compras diretamente na Amazon.</strong><br>Você sai desta vitrine para consultar detalhes, disponibilidade e preço atualizado na loja.</p></div></div></section>
+<section id="sobre"><div class="wrap about-grid"><div class="about-visual"><strong>Pequenos achados,<br>grandes facilidades!</strong><span>Uma seleção feita com carinho para você ♡</span></div><div class="about-card"><h2>Por que acompanhar a Lidi?</h2><ul><li>Ideias para casa, beleza, moda e muito mais.</li><li>Produtos organizados em um só lugar.</li><li>Links diretos para consultar na Amazon.</li><li>Novos achadinhos conforme eu for encontrando.</li></ul></div></div></section>
+</main>
+<footer><div class="wrap footer-grid"><div class="footer-brand">♡ Achadinhos da Lidi</div><div class="disclosure"><strong>Transparência:</strong> Como associado da Amazon, recebo por compras qualificadas.<br>Este site contém links de afiliados. Ao clicar, você será direcionado à Amazon; preços e disponibilidade podem mudar.</div></div></footer>
+</body></html>
